@@ -26,6 +26,11 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+  margin: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--main-background-color);
@@ -113,6 +118,8 @@ body {
 /* --------------------HERO----------------- */
 .hero {
   background-color: #2f303a;
+  /* background: url(/images/Img.jpg) center no-repeat; */
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -123,10 +130,11 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--third-text-color);
-  padding: 200px 250px 280px 250px;
+  padding: 200px 250px 30px 250px;
 }
 
 .hero-btn {
+  display: block;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -135,8 +143,9 @@ body {
   color: var(--third-text-color);
   background-color: #2196f3;
   border: none;
-  cursor: pointer;
   padding: 10px 32px;
+  margin: 0 auto;
+  border-radius: 4px;
 }
 
 .hero-btn:hover,
@@ -165,12 +174,17 @@ body {
   margin: -1px;
 }
 
+.properties-item {
+  max-width: 270px;
+}
+
 .properties-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .properties-text {
@@ -181,17 +195,31 @@ body {
 .work {
   background-color: blue;
   padding-top: 47px;
-  padding-bottom: 47px;
+  padding-bottom: 42px;
+}
+
+.work-title {
+  padding-bottom: 50px;
 }
 
 /* --------------------OUR TEAM----------------- */
 .team {
   background-color: #f5f4fa;
-  padding-top: 47px;
+  padding-top: 42px;
+}
+
+.our-team-title {
+  padding-bottom: 50px;
 }
 
 .team-item {
   background-color: #ffffff;
+}
+
+.team-title-text {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-title {
@@ -200,6 +228,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-bottom: 10px;
 }
 
 .team-text {
@@ -212,6 +241,8 @@ body {
 /* --------------------FOOTER----------------- */
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -220,6 +251,7 @@ body {
 
 .footer-address {
   font-style: normal;
+  padding-top: 20px;
 }
 
 .footer-address-text {
@@ -229,6 +261,7 @@ body {
 .footer-address-email,
 .footer-address-tel {
   color: rgba(255, 255, 255, 0.6);
+  padding-top: 10px;
 }
 
 .footer-address-email:hover,

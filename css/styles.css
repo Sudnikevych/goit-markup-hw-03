@@ -6,10 +6,38 @@
   --main-background-color: #ffffff;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--main-background-color);
   color: var(--main-text-color);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid red;
 }
 
 .list {
@@ -43,6 +71,12 @@ body {
 }
 
 /* --------------------HEADER----------------- */
+.header {
+  background-color: yellowgreen;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .header-logo {
   color: #000000;
 }
@@ -89,6 +123,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--third-text-color);
+  padding: 200px 250px 280px 250px;
 }
 
 .hero-btn {
@@ -101,6 +136,7 @@ body {
   background-color: #2196f3;
   border: none;
   cursor: pointer;
+  padding: 10px 32px;
 }
 
 .hero-btn:hover,
@@ -109,6 +145,13 @@ body {
 }
 
 /* --------------------PROPERTIES----------------- */
+
+.properties {
+  background-color: yellow;
+  padding-top: 94px;
+  padding-bottom: 47px;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -135,10 +178,16 @@ body {
 }
 
 /* --------------------WORK----------------- */
+.work {
+  background-color: blue;
+  padding-top: 47px;
+  padding-bottom: 47px;
+}
 
 /* --------------------OUR TEAM----------------- */
 .team {
   background-color: #f5f4fa;
+  padding-top: 47px;
 }
 
 .team-item {

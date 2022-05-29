@@ -78,8 +78,8 @@ body {
 /* --------------------HEADER----------------- */
 .header {
   /* background-color: yellowgreen; */
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -123,8 +123,8 @@ body {
   margin-left: auto;
 }
 
-.header-contacts-tel {
-  margin-left: 50px;
+.header-contacts-email {
+  margin-right: 50px;
 }
 
 .header-contacts-email,
@@ -144,6 +144,7 @@ body {
 .hero {
   background-color: #2f303a;
   /* background: url(/images/Img.jpg) center no-repeat; */
+  padding-top: 200px;
   padding-bottom: 200px;
 }
 
@@ -154,8 +155,12 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  width: 696px;
   color: var(--third-text-color);
-  padding: 200px 250px 30px 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  /* padding: 200px 250px 30px 250px; */
 }
 
 .hero-btn {
@@ -228,7 +233,7 @@ body {
 .work {
   /* background-color: blue; */
   padding-top: 45px;
-  padding-bottom: 40px;
+  padding-bottom: 94px;
 }
 
 .work-list {
@@ -249,7 +254,8 @@ body {
 /* --------------------OUR TEAM----------------- */
 .team {
   background-color: #f5f4fa;
-  padding-top: 42px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .our-team-title {
@@ -305,17 +311,21 @@ body {
 
 .footer-address {
   font-style: normal;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .footer-address-text {
   color: var(--third-text-color);
+  margin-bottom: 9px;
+}
+
+.footer-address-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-address-email,
 .footer-address-tel {
   color: rgba(255, 255, 255, 0.6);
-  margin-top: 10px;
 }
 
 .footer-address-email:hover,
@@ -332,13 +342,11 @@ body {
 }
 
 /*------------------------------- filter */
-.filter {
-  padding-bottom: 34px;
-}
 
 .filter-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .filter-btn {
@@ -381,9 +389,9 @@ body {
   margin-top: 30px;
 }
 
-.projects-item {
+/* .projects-item {
   border-bottom: 1px solid #eeeeee;
-}
+} */
 
 .projects-title {
   font-weight: 700;
@@ -401,5 +409,8 @@ body {
 }
 
 .projects-title-text {
-  margin: 20px auto 20px 24px;
+  padding: 20px 24px 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
